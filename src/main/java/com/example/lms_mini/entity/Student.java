@@ -45,7 +45,8 @@ public class Student extends BaseEntity {
     // Relationship with Enrollment
     @OneToMany(
         mappedBy = "student",
-        fetch = FetchType.LAZY
+        fetch = FetchType.LAZY,
+        cascade = {CascadeType.PERSIST, CascadeType.MERGE}
     )
     Set<Enrollment> enrollments = new HashSet<>();
 }
