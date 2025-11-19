@@ -1,4 +1,4 @@
-package com.example.lms_mini.dto.request.course;
+package com.example.lms_mini.dto.response.course;
 
 import com.example.lms_mini.dto.response.ResourceResponseDTO;
 import com.example.lms_mini.enums.CourseLanguage;

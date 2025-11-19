@@ -1,11 +1,7 @@
-package com.example.lms_mini.dto.response;
+package com.example.lms_mini.dto.response.student;
 
 import com.example.lms_mini.enums.Gender;
 import com.fasterxml.jackson.annotation.JsonFormat;
-import jakarta.validation.constraints.Email;
-import jakarta.validation.constraints.NotBlank;
-import jakarta.validation.constraints.Past;
-import jakarta.validation.constraints.Size;
 import lombok.*;
 import lombok.experimental.FieldDefaults;
 

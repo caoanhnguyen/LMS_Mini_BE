@@ -1,8 +1,7 @@
-package com.example.lms_mini.dto.request;
+package com.example.lms_mini.dto.request.student;
 
 import com.example.lms_mini.enums.Gender;
 import com.fasterxml.jackson.annotation.JsonFormat;
-import com.fasterxml.jackson.annotation.JsonProperty;
 import jakarta.validation.constraints.*;
 import lombok.AccessLevel;
 import lombok.Getter;

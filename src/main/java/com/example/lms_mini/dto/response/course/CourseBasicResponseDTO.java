@@ -1,6 +1,5 @@
-package com.example.lms_mini.dto.request.course;
+package com.example.lms_mini.dto.response.course;
 
-import com.example.lms_mini.enums.CourseLanguage;
 import com.example.lms_mini.enums.CourseLevel;
 import com.example.lms_mini.enums.Status;
 import lombok.*;
@@ -20,8 +19,7 @@ public class CourseBasicResponseDTO {
     String code;
     BigDecimal price;
     CourseLevel level;
-    String duration;
-    CourseLanguage language;
+    String instructorName;
     Status status;
     String thumbnailUrl;
 }
